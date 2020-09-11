@@ -1,0 +1,80 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				background-image: url('Login Back Image/image_1.jpg');
+				background-attachment: fixed;
+				background-size: cover;
+				
+			}
+			.center
+			{
+				background-color: lightgrey;
+				width: 300px;
+				border: 12px solid green;
+				padding: 30px;
+				margin-top: 70px;
+				margin-bottom: 0px;
+				margin-right: 150px;
+				margin-left: 80px;
+				font-size: 20px;	
+				border-radius: 5px;
+				position: relative;
+			}
+			.button
+			{
+				border: 2px solid green;
+				color: black;
+				padding: 10px 122px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 14px;
+				margin: auto;
+				cursor: pointer;
+				background-color: white;
+				transition-duration: 0.4s;
+			}
+			.button2:hover
+			{
+				background-color: green;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<div class="center">
+			<h1 style="text-align:center;"> BookLab </h1>
+			<p class="center"
+				style="text-align:left;" >
+				<span>Id: </span>
+				<input aria-label="ID:" 
+				autocapitalize="off" 
+				autocorrect="off" 
+				name="userId" 
+				type="text"
+				size="40"
+				placeholder="Username"
+				id="userID"
+				style="height:25px; width:200px;"
+				required
+				autofocus />
+				<br><br>
+				<span>Password: </span>
+				<input aria-label="Password" 
+				autocapitalize="off" 
+				autocorrect="off" 
+				name="password" 
+				type="password"
+				size="30"
+				placeholder="Password"
+				style="height:25px; width:200px;"
+				required />
+			</p><br>
+			<button class="button button2" 
+					style="text-align:center;">Log In</button>
+		</div>
+	</body>
+</html>
