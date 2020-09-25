@@ -8,7 +8,7 @@ body
 .center
 {
 	background-color: lightgrey;
-	width: 300px;
+	width: 400px;
 	border: 12px solid green;
 	padding: 30px;
 	margin-top: 70px;
@@ -23,7 +23,8 @@ body
 {
 	border: 2px solid green;
 	color: black;
-	padding: 10px 122px;
+	height:40px;
+	width:400px;	
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -33,7 +34,7 @@ body
 	background-color: white;
 	transition-duration: 0.4s;
 }
-.button2:hover
+.button:hover
 {
 	background-color: green;
 	color: white;
