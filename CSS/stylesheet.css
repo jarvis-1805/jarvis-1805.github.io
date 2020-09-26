@@ -1,9 +1,49 @@
-body
+body, html
 {
+	height: 100%;
 	background-image: url('../Images/image_1.jpg');
 	background-attachment: fixed;
+	background-position: center;
 	background-size: cover;
-	
+}
+.parallax
+{
+	height: 100%;
+	background-repeat: no-repeat;
+}
+@media only screen and (max-device-width: 1366px)
+{
+	.parallax
+	{
+		background-attachment: scroll;
+	}
+}
+.topnav
+{
+	overflow: hidden;
+	background-color: white;
+	border: 4px solid green;
+	border-radius: 5px;
+}
+.topnav a
+{
+	float: right;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover
+{
+	background-color: green;
+	color: white;
+	border-radius: 2px;
+}
+.topnav a.active
+{
+	background-color: green;
+	color: white;
 }
 .center
 {
