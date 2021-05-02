@@ -1,39 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<link rel="stylesheet" href="assets/CSS/stylesheet.css" media="screen"/>
+		<link rel="stylesheet" href="assets/CSS/topnav_stylesheet.css"/>
+		<link rel="icon" type="jpg" href="favicon_octocat.png">
 	</head>
 	<body id="pageTop">
-		<div class="topnav">
-			<a href="#contact">Contact</a>
-			<a href="#projects">Projects</a>
-			<a href="#about">About</a>
-			<a href="#pageTop">Home</a>
-		</div>
-		<div class="center">
+		<header>
+			<div class="container">
+				<nav class="topnav" id="mainNav">
+					<ul class="topnav-list">
+						<li class="navbutton"><a class="topnav-link" href="#">Home</a></li>
+						<li class="navbutton"><a class="topnav-link" href="#about">About</a></li>
+						<li class="navbutton"><a class="topnav-link" href="#skills">Skills</a></li>
+						<li class="navbutton"><a class="topnav-link" href="#experience">Experience</a></li>
+						<li class="navbutton"><a class="topnav-link" href="#projects">Projects</a></li>
+						<li class="navbutton"><a class="topnav-link" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		
+		<script>
+			window.addEventListener('scroll', function () {
+				let header = document.querySelector('header');
+				let windowPosition = window.scrollY > 0;
+				header.classList.toggle('scrolling-active', windowPosition);
+			})
+		</script>
+		
+		<!--<div class="center">
 			<p>
 				<img src="assets/Images/image_2.jpg" alt="Shubhang Gupta" style="width:400px;height:400px;">
 			</p>
 			<button type="button" class="button button" style="text-align:center" disabled>SHUBHANG GUPTA</button>
 		</div>
-		<br>
+		<br>-->
+
+		<div id="home">
+			
+		</div>
 		
-		<div id="about" style="height:200px;background-color:green">
-		ABOUT
-		</div>
-		<br>
 		<div class="parallax"></div>
 
-		<div id="projects" style="height:200px;background-color:green">
-		PROJECTS
+		<div id="about" class="bg-image img1">
 		</div>
-		<br>
+
 		<div class="parallax"></div>
 
-		<div id="contact" style="height:200px;background-color:green">
-		CONTACT
+		<div id="skills">
 		</div>
-		<br>
+
+		<div class="parallax"></div>
+
+		<div id="experience">
+		</div>
+
+		<div class="parallax"></div>
+
+		<div id="projects">
+			
+		</div>
+
+		<div class="parallax"></div>
+
+		<div id="contact">
+			
+		</div>
+
 		<div class="parallax"></div>
 	</body>
 </html>

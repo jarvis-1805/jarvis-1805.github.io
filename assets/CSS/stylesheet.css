@@ -1,57 +1,49 @@
-body, html
-{
+body, html {
 	height: 100%;
+	top: 0%;
+	margin: 0%;
 	background-image: url('../Images/image_1.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 }
-.parallax
-{
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+}
+
+.parallax {
 	height: 100%;
 	background-repeat: no-repeat;
 }
-@media only screen and (max-device-width: 1366px)
-{
-	.parallax
-	{
+
+@media only screen and (max-device-width: 1366px) {
+	.parallax {
 		background-attachment: scroll;
 	}
 }
-.topnav
-{
-	overflow: hidden;
-	position: fixed;
-	top:0;
-	width: 98%;
-	background-color: black;
-	border: 4px solid green;
-	border-radius: 5px;
+
+.bg-image {
+    height: 100%;
+    top: 0%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.topnav a
-{
-	float: right;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+
+.img1 {
+    background-image: url('../Images/image_3.jpg');
 }
-.topnav a:hover
-{
-	background-color: green;
-	color: white;
-	border-radius: 2px;
-}
-.topnav a.active
-{
-	background-color: green;
-	color: white;
-}
-.center
-{
+
+.center {
 	background-color: #303030;
-	width: 400px;
+	width: 500px;
 	border: 12px solid green;
 	padding: 30px;
 	margin-top: 70px;
@@ -62,8 +54,8 @@ body, html
 	border-radius: 5px;
 	position:static;
 }
-.button
-{
+
+.button {
 	border: 2px solid green;
 	color: white;
 	height:40px;
@@ -77,8 +69,8 @@ body, html
 	background-color: black;
 	transition-duration: 0.4s;
 }
-.button:hover
-{
+
+.button:hover {
 	background-color: green;
 	color: white;
 }
