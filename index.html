@@ -5,9 +5,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 		<link rel="stylesheet" href="assets/CSS/stylesheet.css" media="screen"/>
 		<link rel="stylesheet" href="assets/CSS/topnav_stylesheet.css"/>
+		<script type="text/javascript" src="assets/JS/script.js"></script>
 		<link rel="icon" type="jpg" href="favicon_octocat.png">
 	</head>
-	<body id="pageTop">
+	<body id="pageTop" class="background">
 		<header>
 			<div class="container">
 				<nav class="topnav" id="mainNav">
@@ -22,20 +23,6 @@
 				</nav>
 			</div>
 		</header>
-		
-		<script>
-			window.addEventListener('scroll', function () {
-				let header = document.querySelector('header');
-				let windowPosition = window.scrollY > 0;
-				header.classList.toggle('scrolling-active', windowPosition);
-			})
-		</script>
-
-		<script>
-			function myFunction() {
-				location.href = "#about";
-			}
-		</script>
 
 		<!--<div class="center">
 			<p>
@@ -45,7 +32,7 @@
 		</div>
 		<br>-->
 
-		<div id="home" class="parallax">
+		<div id="home">
 			<div class="home_design">
 				<p>hello world!</p>
 				<p>I'm Shubhang Gupta <b>:)</b></p>
@@ -58,24 +45,29 @@
 				<button class="button" onclick = "myFunction()"><b>▼</b></button>
 			</div>
 			<div>
-				<p class="home_design_1"><b>P.S.</b>&nbsp;This is a small webite built with HTML, CSS and a small pinch of JavaScript!</p>
+				<p class="home_design_1"><b>P.S.</b>&nbsp;This is a small website built with HTML, CSS and a small pinch of JavaScript!</p>
 			</div>
+			<br>
 		</div>
 
-		<div id="about" class="parallax">
-		</div>
+		<section id="about" class="parallax background1" style="padding-top: 10%;">
+			<div class="about_design1">
+				<p>Pronouns: "He" | "Him"</p>
+				<p>AM an undergrad student majoring in Computer Science and Mathematics from University of Delhi.</p>
+			</div>
+		</section>
 
-		<div id="skills" class="parallax">
-		</div>
+		<section id="skills" class="parallax background2">
+		</section>
 
-		<div id="experience" class="parallax">
-		</div>
+		<section id="experience" class="parallax background3">
+		</section>
 
-		<div id="projects" class="parallax">
-		</div>
+		<section id="projects" class="parallax background4">
+		</section>
 
-		<div id="contact" class="parallax">
-		</div>
+		<section id="contact" class="parallax background5">
+		</section>
 
 	</body>
 </html>
