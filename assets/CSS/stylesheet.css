@@ -51,30 +51,35 @@ body, html {
 }
 
 .parallax.background1 {
+	padding-top: 10%;
 	background: #032424;
 	background-size: 400% 400%;
 }
 
 .parallax.background2 {
+	padding-top: 10%;
 	background: #750530;
 	background-size: 400% 400%;
 }
 
 .parallax.background3 {
+	padding-top: 10%;
 	background: #024244;
 	background-size: 400% 400%;
 }
 
 .parallax.background4 {
+	padding-top: 10%;
 	background: #470149;
 	background-size: 400% 400%;
 }
 
 .parallax.background5 {
+	height: 60%;
+    padding-top: 7%;
 	background: #00234b;
-	background-size: 400% 400%;
 }
-
+/*
 .bg-image {
     height: 100%;
     top: 0%;
@@ -83,7 +88,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*
+
 .img1 {
     background-image: url('../Images/image_3.jpg');
 }
@@ -105,7 +110,7 @@ body, html {
 /* Designing home */
 
 .home_design {
-	margin-top: 20%;
+	margin-top: 18%;
 	margin-left: 20%;
 	/*padding-left: 2%;
 	padding-top: 0.1%;
