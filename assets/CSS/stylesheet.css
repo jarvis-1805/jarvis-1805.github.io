@@ -13,6 +13,19 @@ body, html {
 	box-sizing: border-box;
 }
 
+h4 {
+	margin-bottom: 0%;
+	margin-left: 5%;
+	color: #fff;
+	font-size: 2rem;
+}
+
+hr {
+    height: 0.4%;
+    width: 90%;
+    background-color: white;
+}
+
 .container {
     width: 100%;
     max-width: 120rem;
@@ -51,25 +64,25 @@ body, html {
 }
 
 .parallax.background1 {
-	padding-top: 10%;
+	padding-top: 4%;
 	background: #032424;
 	background-size: 400% 400%;
 }
 
 .parallax.background2 {
-	padding-top: 10%;
+	padding-top: 4%;
 	background: #750530;
 	background-size: 400% 400%;
 }
 
 .parallax.background3 {
-	padding-top: 10%;
+	padding-top: 4%;
 	background: #024244;
 	background-size: 400% 400%;
 }
 
 .parallax.background4 {
-	padding-top: 10%;
+	padding-top: 4%;
 	background: #470149;
 	background-size: 400% 400%;
 }
@@ -123,6 +136,7 @@ body, html {
 
 .home_design_1 {
 	margin-top: 5%;
+	margin-bottom: 5%;
 	margin-left: 20%;
 	padding-left: 2%;
 	padding-top: 1%;
@@ -134,7 +148,7 @@ body, html {
 }
 
 .home_design_2 {
-	margin-top: 5%;
+	margin-top: 8%;
 	margin-left: 50%;
 	font-size: 150%;
 	color: black;
@@ -187,13 +201,4 @@ body, html {
 .bounce:hover {
 	-webkit-animation-name: bounce;
 	animation-name: bounce;
-}
-
-/* Designing About */
-
-.about_design1 {
-	font-family: "Lucida Console", "Courier New", monospace;
-	font-size: 100%;
-	color: #fff;
-	margin-left: 5%;
 }
