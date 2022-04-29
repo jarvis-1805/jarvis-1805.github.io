@@ -646,8 +646,8 @@ hr {
 }
 
 .linkedin {
-    /* content: url('../Icons/Linkedin.svg'); */
-    content: url('https://static-exp1.licdn.com/sc/h/8zliikpi39umlw2wr99gu4a0u');
+    content: url('../Icons/Linkedin.svg');
+    /* content: url('https://static-exp1.licdn.com/sc/h/8zliikpi39umlw2wr99gu4a0u'); */
 }
 
 .facebook {
