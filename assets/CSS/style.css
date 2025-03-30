@@ -611,7 +611,16 @@ hr {
 .contact {
     height: auto;
     padding: 30px 0;
-	background: #00234b;
+	/* background: #00234b; */
+}
+
+.contact p {
+    display: flex;
+    margin: 6px 0;
+    /* justify-content: center; */
+	font: 16px cursive;
+    font-size: 150%;
+    color: #fff;
 }
 
 .contact-content p {
@@ -626,7 +635,7 @@ hr {
 .icons {
     display: flex;
     margin-top: 2rem;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .github {
